@@ -3,7 +3,7 @@
 }
 
 .mainContent{
-    flex-direction: row;
+    /* flex-direction: row; */
     display: flex;
     padding-bottom: 30px;
     border-bottom: 1px solid #fff;
@@ -27,13 +27,14 @@
     object-fit: contain;
     max-width: min(30vw, 40vh);
     /* max-width: 30vw; */
-    max-height: 35vh;
+    /* max-height: 35vh; */
+    max-height: 35vw;
 }
 
 .punkDetails{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex: 1;
 }
 
@@ -43,17 +44,18 @@
 }
 
 .itemNumber{
-    margin: 35px 5px;
+    /* margin: 35px 5px; */
     align-content: center;
     color: #a1a5b0;
-    font-size: 60px;
+    font-size: 72px;
+    align-self: center;
 }
 
 .owner{
     display: flex;
-    margin: 0px 0;
+    margin: 10px 0;
     height: 50px;
-    flex: 1;
+    flex: 1; 
 }
 
 .owner > div{
